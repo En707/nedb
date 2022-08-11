@@ -1,0 +1,33 @@
+{
+  "name": "@en707/nedb",
+  "version": "3.0.2",
+  "description": "A dead-simple promise wrapper for nedb.",
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc2md ./src/*.js > docs.md --no-gfm",
+    "test": "mocha --reporter spec --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "nedb",
+    "promises",
+    "promise"
+  ],
+  "author": "Kristóf Baján",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/En707/nedb/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "jsdoc-to-markdown": "^4.0.1",
+    "mocha": "^3.5.3"
+  }
+}
